@@ -1,0 +1,216 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+input,textarea,button,select{
+	padding: 10px; border:1px solid #ddd;
+	border-radius: 4px; background: #fff;
+}
+
+textarea{resize: none; height: 100px;}
+
+label{
+	padding: 3px 0px; display: block; margin:5px 0px;
+}
+
+.topnav {
+	background-color: #286090;
+	overflow: hidden;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover{
+	background-color: #ddd;
+	color: black;
+}
+
+.topnav a.active{
+	background-color: #4caf50;
+	color: white;
+}
+
+.bagi {
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	/*top: 0;*/
+	overflow-x: hidden;
+}
+
+.navigasi {
+	left: 0;
+	width: 20%;
+	background-color: #1a1a1a;
+}
+
+.panel {
+	height: 100%;
+	width: 20%;
+	position: fixed;
+	z-index: 0;
+	/*top: 0;*/
+	overflow-x: hidden;
+	color: white;
+}
+
+.panel a {
+	/*width: 80%;
+	margin-left: 5%;*/
+	padding: 20px;
+	text-align: left;
+	text-decoration: none;
+	font-size: 17px;
+	color: white;
+	display: block;
+	border-bottom: 1px solid black;
+}
+
+.panel a:hover{
+	background-color: #ddd;
+	color: black;
+}
+
+.panel a.active{
+	background-color: black;
+	color: white;
+}
+
+.konten {
+	width: 80%;
+	height: 100%;
+	right: 0;
+	background-color: white;
+	color: black;
+}
+
+.lihatdata {
+	width: 95%;
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+.tambahdata {
+	width: 60%; margin:0 auto;
+	border:1px solid #ddd;
+	/*box-shadow: 0px 0px 4px 1px #ddd;*/
+	margin-bottom: 20px;
+}
+
+.full {
+	width: 97%;
+}
+
+.F50 {
+	width: 50%;
+}
+
+.clear {
+	clear: both;
+}
+
+table {
+	border-collapse: collapse;
+	width: 60%;
+	border: 1px solid #e0e0e0;
+}
+
+table td {
+	padding: 1%;
+}
+
+table thead {
+	background: #f1f1f1;
+	color: #444;
+	border-bottom: 3px solid #e7e7e7;
+	margin: 20px;
+}
+
+table tbody tr:nth-child(even) {
+	background: #f8f8f8;
+}
+
+.kiri {
+	float: left;
+}
+
+.kanan {
+	float: right;
+}
+
+.add {
+	padding: 20px 10px;
+}
+
+.tambah {
+	background-color: #449D44;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 10px;
+	padding: 1%;
+	border-radius: 4px;
+}
+
+.cari {
+	background-color: #286090;
+	color: white;
+}
+
+.cetak {
+	background-color: #EC971F;
+	color: white;
+	text-decoration: none;
+	padding: 1%;
+	border-radius: 4px;
+}
+
+.edit {
+	background-color: #2196f3;
+	color: white;
+	padding: 5%;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.hapus {
+	background-color: red;
+	color: white;
+	padding: 1%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.form{padding: 10px 20px; background: #fff; border-radius: 4px; height: 100%;}
+.form-abu{padding: 10px 20px; background: #f8f8f8; border-radius: 4px;}
+.head-form,.foot-form{
+	padding:1px 0px; text-align: center; border-bottom:1px solid #ddd;
+}
+.foot-form{border-top:1px solid #ddd;}
+
+.dokter{
+	width: 60%; margin:0 auto;
+	border:1px solid #ddd;
+	/*box-shadow: 0px 0px 4px 1px #ddd;*/
+	/*margin-bottom: 20px;*/
+	margin-top: 3%;
+}
+
+.tmbl {
+	padding: 7px 10px; 
+	font-size: 1em; 
+	border-radius: 4px;
+	text-decoration: none;
+}
